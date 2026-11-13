@@ -1,7 +1,7 @@
 baseURL = "https://nextcloud-file-sync-help.pages.dev/"
 languageCode = "en-us"
 title = "Nextcloud File Sync Help"
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
 [params]
 source = "nextcloud-file-sync-help"
