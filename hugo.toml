@@ -1,13 +1,33 @@
 baseURL = "https://nextcloud-file-sync-help.pages.dev/"
 languageCode = "en-us"
-title = "Nextcloud Single-Device Sync"
+title = "Nextcloud File Sync Help"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 [params]
-template_version = "v1.1.0"
-description = "Fix Nextcloud sync for one device: client status, permissions, conflicts, and selective sync."
-category = "HomeLab"
 source = "nextcloud-file-sync-help"
+description = "Remote Nextcloud help for stuck sync, permissions, conflict files, and one-folder verification."
 email = "hello@handytasklab.com"
+fallback_email_subject = "Nextcloud desktop sync help"
+fallback_email_fields = ["Nextcloud client/server version", "Test folder and permissions", "Exact sync error", "Conflict file names"]
+og_image = "images/social.jpg"
+footer_line = "Remote help for one device at a time."
+latest_kicker = "FROM THE BLOG"
+latest_title = "Nextcloud File Sync Help Guides"
+theme_bg = "#65C8DA"
+theme_surface = "#F4FBFC"
+theme_card = "#FFFFFF"
+theme_ink = "#182018"
+theme_muted = "#5D655F"
+theme_accent = "#102D48"
+theme_accent_ink = "#FFFFFF"
+theme_deep = "#23464C"
+theme_deep_ink = "#FFFFFF"
+theme_header_ink = "#182018"
+theme_line = "#D1D8D8"
+theme_link = "#2D465E"
+theme_scrim = "rgba(8,12,16,0.86)"
+theme_light = false
+hero_desktop_hd_width = 1376
+hero_mobile_hd_width = 768
 [markup.goldmark.renderer]
 unsafe = true

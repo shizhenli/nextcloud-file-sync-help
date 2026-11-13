@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://nextcloud-file-sync-help.pages.dev/sitemap.xml
