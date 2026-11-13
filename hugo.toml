@@ -1,0 +1,11 @@
+baseURL = "https://nextcloud-file-sync-help.pages.dev/"
+languageCode = "en-us"
+title = "Nextcloud Single-Device Sync"
+enableRobotsTXT = true
+[params]
+description = "Fix Nextcloud sync for one device: client status, permissions, conflicts, and selective sync."
+category = "HomeLab"
+source = "nextcloud-file-sync-help"
+email = "hello@handytasklab.com"
+[markup.goldmark.renderer]
+unsafe = true
