@@ -13,9 +13,9 @@ hero_proof:
 - One client and one test folder
 - Upload and download both checked
 - Conflict files identified before cleanup
-hero_alt: Two laptops displaying the same synchronized photo folder
-hero_title: Nextcloud synchronized photo folder on two laptops
-body_alt: A laptop showing Nextcloud sync status and a test folder
+hero_alt: Laptop open on a wooden desk for a Nextcloud file sync test
+hero_title: Nextcloud file sync on a laptop
+body_alt: Network server cabling representing the Nextcloud storage backend
 body_title: Nextcloud two-way sync verification
 body_caption: A green check is not enough; the test file must appear on both sides and survive a restart.
 failures_kicker: THE THREE FAILURES WE SEE
