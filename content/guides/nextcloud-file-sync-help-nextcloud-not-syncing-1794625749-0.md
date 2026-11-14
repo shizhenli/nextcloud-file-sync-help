@@ -17,7 +17,7 @@ Your Nextcloud desktop client shows "Waiting for Sync" indefinitely and no files
 
 ## Check the client's sync status and conflict markers
 
-Open the Nextcloud client window and look at the status line. If it says "Waiting for Sync" but the activity list is empty, the client is likely blocked by a local file conflict or a locked database. First, right-click the tray icon and choose **Pause sync**, wait five seconds, then **Resume sync**. If the status changes to "Syncing" and files begin transferring, the queue was temporarily stuck. If it returns to "Waiting for Sync" within a minute, continue below.
+Open the Nextcloud client window and look at the status line. If it says "Waiting for Sync" but the activity list is empty, the client is likely blocked by a local file conflict or a locked database. First, right-click the tray icon and choose Pause sync, wait five seconds, then Resume sync. If the status changes to "Syncing" and files begin transferring, the queue was temporarily stuck. If it returns to "Waiting for Sync" within a minute, continue below.
 
 Next, inspect the local sync folder for files ending in `.sync-conflict` or `.~lock`. A single conflict file can halt the entire queue. Move any conflict files to a temporary folder outside the sync root, then restart the client. If the status changes to "Up to date" or "Syncing," the conflict was the blocker.
 
