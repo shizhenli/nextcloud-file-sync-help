@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://nextcloud-file-sync-help.pages.dev/sitemap.xml
+
+Sitemap: https://nextcloud-sync.handytasklab.com/sitemap.xml
